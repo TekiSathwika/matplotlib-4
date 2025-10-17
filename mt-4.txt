@@ -1,0 +1,12 @@
+import matplotlib.pyplot as plt
+days=[1,2,3,4,5]
+sales_A=[10,15,12,18,20]
+sales_B=[8,12,10,15,16]
+plt.plot(days,sales_A,'b-o',label='Sales_A')
+plt.plot(days,sales_B,'g--s',label='Sales_B')
+plt.xlabel('Days')
+plt.ylabel('Sales')
+plt.title('Sales Analysis')
+plt.legend()
+plt.grid(True)
+plt.show()
